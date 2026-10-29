@@ -17,7 +17,7 @@ services:
     image: poornamandavalli/docker-backend-2400030616:latest
     container_name: docker-springboot
     ports:
-      - "2025:2000"
+      - "2025:8080"
     depends_on:
       - postgresdb
     restart: on-failure
